@@ -14,9 +14,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/et-line.css">
 
 
-	<script src="components/js/jquery-2.1.0.min.js"></script>
-	<script src="components/js/bootstrap.min.js"></script>
-	<script src="components/js/blocs.min.js"></script>
+	<script src="components/js/jquery-2.1.0.js"></script>
+	<script src="components/js/bootstrap.js"></script>
+	<script src="components/js/blocs.js"></script>
 	<script src="components/js/jqBootstrapValidation.js"></script>
 	<script src="components/js/formHandler.js"></script>
 	<title>La chouette-Contact</title>
@@ -90,28 +90,30 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label aria-label="Nom">
 									Nom
 								</label>
-								<input id="name" class="form-control" required />
+								<input id="name" aria-label="Nom" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label aria-label="Adresse email">
 									Adresse email
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input aria-label="Adresse email" id="email" class="form-control" type="email"
+									required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label aria-label="Comment nous avez-vous connu ?">
 									Comment nous avez-vous connu ?
 								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<input aria-label="Adresse email" class="form-control" type="email" required
+									id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>
+								<label aria-label="Brief de votre projet (Ajoutez autant de détails que nécessaire)">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50"
-									required></textarea>
+								</label><textarea id="message" aria-label="Adresse email" class="form-control" rows="4"
+									cols="50" required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">

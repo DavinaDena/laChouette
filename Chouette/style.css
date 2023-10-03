@@ -27,10 +27,6 @@ a:hover {
     background: #FFFFFF url("assets/img/pageload-spinner.gif") no-repeat center center;
 }
 
-.keyword {
-    color: #101010;
-    font-size: 1px;
-}
 
 .bloc {
     width: 100%;
@@ -688,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -782,7 +778,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #c46336;
 }
 
 .tc-white {
@@ -790,12 +786,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c46336;
     color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
+    background: #b7592d !important;
     color: #FFFFFF !important;
 }
 
